@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden
+}
+
+.container {
+    background-color: white;
+    height: 80vh;
+    width: 310px;
+    margin: auto;
+    margin-top: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+#english {
+
+    color: grey;
+    margin-top: -25px;
+    margin-bottom: 60px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#arrow {
+    font-size: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+.heading {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.fb_login {
+    height: 35px;
+    width: 280px;
+    margin-top: 30px;
+    background-color: #3377ff;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 5px;
+    padding-top: 7px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#fb-logo {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+
+}
+
+
+h4 {
+    display: flex;
+    flex-direction: row;
+}
+
+h4:before,
+h4:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid grey;
+    margin-top: 50px;
+    padding-right: 40px;
+}
+
+.form {
+    margin-top: 34px;
+}
+
+.form input {
+    background-color: #fafafa;
+    border: solid 1px grey;
+    border-radius: 4px;
+    margin-top: 8px;
+    height: 40px;
+    width: 100%;
+    font-weight: 100;
+    padding-left: 10px;
+    text-decoration: none;
+    outline: none;
+}
+
+#forgotpsk {
+    color: #3377ff;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: right;
+    cursor: pointer;
+}
+
+#loginBtn {
+    background-color: #3377ff;
+    font-size: 15px;
+    color: white;
+    height: 33px;
+    margin-top: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#signup {
+    margin-top: 30px;
+    color: grey;
+    cursor: pointer;
+}
+
+#signup span {
+    padding-left: 5px;
+    color: #3377ff;
+    font-weight: bold;
+}
+
+.ending {
+
+    width: 100%;
+    margin-top: 40%;
+}
+
+#from {
+    font-weight: 100;
+    color: grey;
+}
+
+#from p {
+    font-weight: 600;
+    color: red;
+    font-size: 14px;
+}
+
+::placeholder {
+    color: grey;
+    font-weight: 300;
+
+}
+
+#dot {
+
+    text-align: left;
+    margin-left: -30px;
+
+    font-size: 20px;
+}
+
+
+h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin-top: 30px;
+
+}
+
+h2 span {
+    background: white;
+    font-size: 15px;
+    color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
